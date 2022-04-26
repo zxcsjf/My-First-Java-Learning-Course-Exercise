@@ -11,7 +11,6 @@ public class SetDemo {
         set.add("blue");
         set.add("sky");
 
-
         System.out.println(set);
     }
 }
