@@ -5,7 +5,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        SetDemo.show();
+        MapDemo.show();
+
+//        SetDemo.show();
+
+//        QueueDemo.show();
 
 //        List<Customer> customers = new ArrayList<>();
 //        customers.add(new Customer("b", "e3"));
