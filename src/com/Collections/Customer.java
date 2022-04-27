@@ -10,6 +10,7 @@ public class Customer implements Comparable<Customer>{
         this.email = email;
     }
 
+    // Customer itself must know how it is to be ordered
     @Override
     public int compareTo(Customer other) {
         return name.compareTo(other.name);
@@ -26,5 +27,9 @@ public class Customer implements Comparable<Customer>{
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getName() {
+        return name;
     }
 }

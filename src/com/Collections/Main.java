@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        MapDemo.show();
+//        MapDemo.show();
 
 //        SetDemo.show();
 
@@ -13,10 +13,12 @@ public class Main {
 
 //        List<Customer> customers = new ArrayList<>();
 //        customers.add(new Customer("b", "e3"));
-//        customers.add(new Customer("c", "e2"));
 //        customers.add(new Customer("a", "e1"));
+//        customers.add(new Customer("c", "e2"));
 //
+//        Collections.sort(customers);
 //        Collections.sort(customers, new EmailComparator());
+//        Collections.sort(customers, new NameComparator());
 //        System.out.println(customers);
 
 
