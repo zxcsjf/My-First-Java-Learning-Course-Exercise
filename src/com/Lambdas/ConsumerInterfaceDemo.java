@@ -3,7 +3,7 @@ package com.Lambdas;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ConsumerInterfaceDeom {
+public class ConsumerInterfaceDemo {
     public static void show() {
 
         List<Integer> list = List.of(1, 2, 3);
@@ -23,6 +23,8 @@ public class ConsumerInterfaceDeom {
         Consumer<String> printUpperCase = (item) -> System.out.println(item.toUpperCase());
 
         list2.forEach(print.andThen(printUpperCase));
+        print.accept("abcdef");
+
 
         // 4. 验证上面的print后的lambda表达式实际上是
         //    print这个object，实现了Consumer接口，

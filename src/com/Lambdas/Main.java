@@ -4,8 +4,14 @@ public class Main {
     public static void main(String[] args) {
 //        LambdasDemo.show();
 
-//        ConsumerInterfaceDeom.show();
+//        ConsumerInterfaceDemo.show();
 
-        SupplierInterfaceDemo.show();
+//        SupplierInterfaceDemo.show();
+
+//        FunctionInterfaceDemo.show();
+
+//        PredicateDemo.show();
+
+        BinaryUnaryOperatorDemo.show();
     }
 }
