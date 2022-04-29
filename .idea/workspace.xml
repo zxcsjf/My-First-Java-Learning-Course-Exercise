@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4b9c2cf-34a2-4eda-8850-630d80549107" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Streams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Streams/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,12 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Streams/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-              <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -165,8 +162,8 @@
         <option value="$PROJECT_DIR$/src/com/Lambdas/BinaryUnaryOperatorDemo.java" />
         <option value="$PROJECT_DIR$/src/com/Lambdas/Printer.java" />
         <option value="$PROJECT_DIR$/src/com/Streams/Movie.java" />
-        <option value="$PROJECT_DIR$/src/com/Streams/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Streams/StreamsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/Streams/Main.java" />
       </list>
     </option>
   </component>
@@ -183,8 +180,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
-    <option name="y" value="298" />
+    <option name="x" value="710" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
@@ -405,7 +401,8 @@
       <workItem from="1651106427703" duration="5722000" />
       <workItem from="1651115474020" duration="10834000" />
       <workItem from="1651144193696" duration="1504000" />
-      <workItem from="1651204299497" duration="1361000" />
+      <workItem from="1651204299497" duration="2005000" />
+      <workItem from="1651219121701" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -456,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1651144304381</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Stream.">
+      <created>1651216314648</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651216314648</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284172000" />
+    <option name="totallyTimeSpent" value="285041000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -472,7 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="951" y="6" width="784" height="872" extended-state="0" />
+    <frame x="568" y="0" width="784" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49320653" weight="0.41597795" />
@@ -484,7 +488,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5067935" side_tool="true" weight="0.25344354" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.20671141" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48927614" visible="true" weight="0.23609227" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48927614" weight="0.23609227" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49262735" weight="0.38120806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1921,12 +1925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Streams/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
