@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b9c2cf-34a2-4eda-8850-630d80549107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Streams/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Streams/StreamsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,23 +35,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Streams/StreamsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="475">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Streams/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,9 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -188,8 +182,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="635" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="288" />
+    <option name="y" value="298" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
@@ -201,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,6 +225,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,6 +404,8 @@
       <workItem from="1651075413213" duration="641000" />
       <workItem from="1651106427703" duration="5722000" />
       <workItem from="1651115474020" duration="10834000" />
+      <workItem from="1651144193696" duration="1504000" />
+      <workItem from="1651204299497" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -452,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1651124370075</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Stream.">
+      <created>1651144304381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651144304381</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281307000" />
+    <option name="totallyTimeSpent" value="284172000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -468,10 +472,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="951" y="6" width="784" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49320653" visible="true" weight="0.19705094" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49320653" weight="0.41597795" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.37935656" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,7 +484,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5067935" side_tool="true" weight="0.25344354" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.20671141" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48927614" visible="true" weight="0.23687753" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48927614" visible="true" weight="0.23609227" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49262735" weight="0.38120806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,7 +547,8 @@
     <MESSAGE value="Add Queue, Set, Map demo." />
     <MESSAGE value="Add Anonymous Inner class, Lambda Expression, Method Reference, Consumer Interface" />
     <MESSAGE value="Add FunctionInterface, PredicateInterface, BinaryOperator, UnaryOperator Demo.&#10;增加了函数接口、谓词接口、二元运算、一元运算接口的例子，&#10;理清了接口的andThen()方法的底层逻辑，拥抱申明式编程。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add FunctionInterface, PredicateInterface, BinaryOperator, UnaryOperator Demo.&#10;增加了函数接口、谓词接口、二元运算、一元运算接口的例子，&#10;理清了接口的andThen()方法的底层逻辑，拥抱申明式编程。" />
+    <MESSAGE value="Add Stream." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Stream." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1900,13 +1905,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Streams/StreamsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Streams/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1916,15 +1925,8 @@
           <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Streams/StreamsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
