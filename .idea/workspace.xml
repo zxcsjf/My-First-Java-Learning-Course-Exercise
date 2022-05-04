@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Streams/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -179,8 +179,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="710" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="581" />
+    <option name="y" value="5" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
@@ -192,36 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Streams" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -402,7 +375,8 @@
       <workItem from="1651115474020" duration="10834000" />
       <workItem from="1651144193696" duration="1504000" />
       <workItem from="1651204299497" duration="2005000" />
-      <workItem from="1651219121701" duration="225000" />
+      <workItem from="1651219121701" duration="303000" />
+      <workItem from="1651461497959" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -460,11 +434,18 @@
       <option name="project" value="LOCAL" />
       <updated>1651216314648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="5">
+      <created>1651219365256</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651219365256</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285041000" />
+    <option name="totallyTimeSpent" value="285635000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -476,10 +457,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="568" y="0" width="784" height="872" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49320653" weight="0.41597795" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49320653" visible="true" weight="0.23927614" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.37935656" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -552,7 +533,8 @@
     <MESSAGE value="Add Anonymous Inner class, Lambda Expression, Method Reference, Consumer Interface" />
     <MESSAGE value="Add FunctionInterface, PredicateInterface, BinaryOperator, UnaryOperator Demo.&#10;增加了函数接口、谓词接口、二元运算、一元运算接口的例子，&#10;理清了接口的andThen()方法的底层逻辑，拥抱申明式编程。" />
     <MESSAGE value="Add Stream." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Stream." />
+    <MESSAGE value="5" />
+    <option name="LAST_COMMIT_MESSAGE" value="5" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1925,8 +1907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Streams/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
