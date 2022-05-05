@@ -1,14 +1,18 @@
 package com.Streams;
 
+import javax.swing.text.html.Option;
 import java.util.*;
+import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamsDemo {
     public static void show() {
         List<Movie> movies = List.of(
                 new Movie("a", 10),
-                new Movie("b", 20),
+                new Movie("a", 10),
+                new Movie("b", 40),
                 new Movie("c", 15)
         );
 
@@ -62,14 +66,78 @@ public class StreamsDemo {
                 .flatMap(list -> list.stream())
                 .forEach(n -> System.out.println(n));
 
-        // Filter
+        // 3. Filter
         Predicate<Movie> isPopular = movie -> movie.getLikes() > 10;
         movies.stream()
                 .filter(isPopular)
                 .forEach(movie -> System.out.println(movie.getTitle()));
 
-        // Slicing
+        // 4. Slicing
+        //     limit() skip() paginate data
+        // 1000 movies
+        // 10 movies per page
+        // 3rd page
+        // skip(20) = skip( (page - 1) * pageSize)
+        // limit(10) = limit(pageSize)
+        movies.stream()
+                .skip(20)
+                .limit(10)
+                .forEach(m -> System.out.println(m.getTitle()));
 
+        movies.stream()
+                .dropWhile(movie -> movie.getLikes() < 30 )
+                .forEach(movie -> System.out.println(movie.getTitle()));
 
+        // 5. sort
+        movies.stream()
+//                .sorted((a, b) -> a.getTitle().compareTo(b.getTitle()))  // 3 way is same
+//                .sorted(Comparator.comparing(m -> m.getTitle()))
+                .sorted(Comparator.comparing(Movie::getTitle).reversed())
+                .forEach(movie -> System.out.println(movie.getTitle()));
+
+        // 6. Unique item
+        movies.stream()
+                .map(Movie::getLikes)
+                .distinct()
+                .forEach(m -> System.out.println(m));
+
+        // 7. Peek 检查
+        movies.stream()
+                .filter(m -> m.getLikes() > 10)
+                .peek(movie -> System.out.println("filtered: " + movie.getTitle()))
+                .map(Movie::getTitle)
+                .peek(t -> System.out.println("mapped: " + t))
+                .forEach(System.out::println);
+
+        // 8. Reducers
+         movies.stream()
+                .findAny()
+                .ifPresent(m -> System.out.println(m.getTitle()));
+//                .get()
+//                .findFirst() // optional
+//                .max(Comparator.comparing(Movie::getLikes))
+//
+//                .noneMatch()
+//                .allMatch(m -> m.getLikes() > 20)
+//                .anyMatch(m -> m.getLikes() > 20)
+
+        // 9. Reducing a Stream
+        Optional<Integer> sum = movies.stream()
+                .map(movie -> movie.getLikes())
+                .reduce(Integer::sum);
+
+        System.out.println(sum.orElse(0));
+
+        Integer sum2 = movies.stream()
+                .map(movie -> movie.getLikes())
+                .reduce(0, Integer::sum);
+
+        System.out.println(sum2);
+
+        // 10. Collectors
+        var result3 = movies.stream()
+                             .filter(m -> m.getLikes() > 10)
+                             .collect(Collectors.toMap(Movie::getTitle, Function.identity()));
+        System.out.println(result3);
     }
 }
