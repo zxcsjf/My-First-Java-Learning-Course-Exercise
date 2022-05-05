@@ -1,8 +1,6 @@
 package com.Streams;
 
-import javax.swing.text.html.Option;
 import java.util.*;
-import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -10,10 +8,10 @@ import java.util.stream.Stream;
 public class StreamsDemo {
     public static void show() {
         List<Movie> movies = List.of(
-                new Movie("a", 10),
-                new Movie("a", 10),
-                new Movie("b", 40),
-                new Movie("c", 15)
+                new Movie("a", 10, Genre.COMEDY),
+                new Movie("a", 10, Genre.COMEDY),
+                new Movie("b", 40, Genre.ACTION),
+                new Movie("c", 15, Genre.THRILLER)
         );
 
         // 命令式编程 Imperative Programming
@@ -123,10 +121,11 @@ public class StreamsDemo {
 
         // 9. Reducing a Stream
         Optional<Integer> sum = movies.stream()
+                .filter(movie -> movie.getLikes() > 100)
                 .map(movie -> movie.getLikes())
                 .reduce(Integer::sum);
 
-        System.out.println(sum.orElse(0));
+        System.out.println(sum);
 
         Integer sum2 = movies.stream()
                 .map(movie -> movie.getLikes())
@@ -137,7 +136,18 @@ public class StreamsDemo {
         // 10. Collectors
         var result3 = movies.stream()
                              .filter(m -> m.getLikes() > 10)
-                             .collect(Collectors.toMap(Movie::getTitle, Function.identity()));
+//                             .collect(Collectors.summarizingInt(Movie::getLikes));
+//                             .collect(Collectors.toMap(Movie::getTitle, Function.identity()));
+                               .map(Movie::getTitle)
+                                .collect(Collectors.joining(", "));
         System.out.println(result3);
+
+        // 11. Grouping Elements
+        var result11 = movies.stream()
+                .collect(Collectors.groupingBy(Movie::getGenre,
+                        Collectors.mapping(Movie::getTitle,
+                                            Collectors.joining(", "))));
+
+        System.out.println(result11);
     }
 }

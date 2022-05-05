@@ -7,7 +7,8 @@ import java.util.TreeMap;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("%x");
+
+//        System.out.printf("%x");
 //       Solution.printPerfectNumber(1_000);
 
 //// 15

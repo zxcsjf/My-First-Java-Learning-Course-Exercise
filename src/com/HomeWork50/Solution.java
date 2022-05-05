@@ -6,34 +6,83 @@ import java.text.NumberFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.stream.Stream;
 
-class Solution21 {
-    public static void main(String[] args) {
+//class Solution22 {
+//    public static void main(String[] args) {
+//        Scanner scanner22 = new Scanner(System.in);
+////        int input;
+//        String rawInput;
+//        char[] rawArray;
+//        while (true) {
+//            System.out.println("Please enter a 5 digits number: ");
+//            rawInput = scanner22.nextLine();
+//            rawArray = rawInput.toCharArray();
+//            if (rawInput.length() > 5) System.out.println("Invalid Number!");
+//            else break;
+//        }
+//        int length = rawInput.length();
+//        int[] reversed = new int[];
+//        for (var i = 0; i < length; i++){
+//            reversed[i] = rawArray[length - i];
+//        }
+//        System.out.println(reversed);
 
-    }
-}
 
-class Solution20 {
-    public static void main(String[] args) {
-        SimpleDateFormat formatDateTime = new SimpleDateFormat("yyyy-MM-dd");
-        System.out.print("Input date(yyyy-mm-dd): ");
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+//        int valueOfShiWanWei = input / 100_000;
+//        int valueOfWanWei = (input - valueOfShiWanWei * 100_000) / 10_000;
+//        int valueOfQianWei = (input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000) / 1000;
+//        int valueOfBaiWei = (input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000 - valueOfQianWei * 1000) / 100;
+//        int valueOfShiWei = (input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000 - valueOfQianWei * 1000 - valueOfBaiWei * 100) / 10;
+//        int valueOfGeWei = input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000 - valueOfQianWei * 1000 - valueOfBaiWei * 100 - valueOfShiWei * 10;
+//
+//        System.out.print(valueOfGeWei * 100_000 + valueOfShiWei * 10_000 + valueOfBaiWei * 1000 + valueOfQianWei * 100 + valueOfWanWei * 10 + valueOfShiWanWei);
+//
+//    }
+//}
 
+//class Solution21 {
+//    public static void main(String[] args) {
+//        for (var n = 1; n <= 100_000; n++) {
+////            if (Math.sqrt(n + 100) % 1 == 0 && Math.sqrt(n + 268) % 1 == 0)
+//            if (isSquare(n + 100) && isSquare(n + 268))
+//                System.out.println(n);
+//        }
+//    }
+//
+//    public static boolean isSquare(int num) {
+//        double a = 0;
+//        try {
+//            a = Math.sqrt(num);
+//        } catch (Exception e) {
+//            return false;
+//        }
+//        int b = (int) a;
+//        return a - b == 0;
+//    }
+//}
 
-        // parse 可能抛出异常, setLentient判断日期格式合法
-        try {
-            formatDateTime.setLenient(true); // 严格判断日期合法性
-            System.out.println(formatDateTime);
-            Date date = formatDateTime.parse(input); // 读入的字符串parse成Date对象
-            System.out.println(date);
-            System.out.printf("你输入的日期是%tC%ty年的第%tj天", date, date, date);   //得到日期是在这年的第几天
-        } catch (Exception e) {
-//            System.out.println("输入日期不合法，请重新输入。");
-            e.printStackTrace();
-        }
-    }
-}
+//class Solution20 {
+//    public static void main(String[] args) {
+//        SimpleDateFormat formatDateTime = new SimpleDateFormat("yyyy-MM-dd");
+//        System.out.print("Input date(yyyy-mm-dd): ");
+//        Scanner scanner = new Scanner(System.in);
+//        String input = scanner.nextLine();
+//
+//
+//        // parse 可能抛出异常, setLentient判断日期格式合法
+//        try {
+//            formatDateTime.setLenient(true); // 严格判断日期合法性
+//            System.out.println(formatDateTime);
+//            Date date = formatDateTime.parse(input); // 读入的字符串parse成Date对象
+//            System.out.println(date);
+//            System.out.printf("你输入的日期是%tC%ty年的第%tj天", date, date, date);   //得到日期是在这年的第几天
+//        } catch (Exception e) {
+////            System.out.println("输入日期不合法，请重新输入。");
+//            e.printStackTrace();
+//        }
+//    }
+//}
 
 //class Solution {
 //    public static void main(String[] args) {
