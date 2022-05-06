@@ -3,15 +3,18 @@ package com.Streams;
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamsDemo {
     public static void show() {
         List<Movie> movies = List.of(
                 new Movie("a", 10, Genre.COMEDY),
-                new Movie("a", 10, Genre.COMEDY),
                 new Movie("b", 40, Genre.ACTION),
+                new Movie("a", 10, Genre.COMEDY),
                 new Movie("c", 15, Genre.THRILLER)
+
+
         );
 
         // 命令式编程 Imperative Programming
@@ -45,6 +48,7 @@ public class StreamsDemo {
 
         Stream.of(1, 2, 3, 4);
 
+        // 1. 产生流的两种方法： generate iterate
         // Lazy evaluation
         var stream2 = Stream.generate(() -> Math.random());
         stream2.limit(10)
@@ -133,21 +137,39 @@ public class StreamsDemo {
 
         System.out.println(sum2);
 
-        // 10. Collectors
-        var result3 = movies.stream()
+        // 10. Collectors 收集流元素 -> 数据结构
+        var result10 = movies.stream()
                              .filter(m -> m.getLikes() > 10)
-//                             .collect(Collectors.summarizingInt(Movie::getLikes));
-//                             .collect(Collectors.toMap(Movie::getTitle, Function.identity()));
-                               .map(Movie::getTitle)
+//                             .collect(Collectors.summarizingInt(Movie::getLikes)); // 1.
+//                             .collect(Collectors.toMap(Movie::getTitle, Function.identity())); // 2.
+                               .map(Movie::getTitle) // 3. 用分隔符连接值的收集器 Collectors.joining()
                                 .collect(Collectors.joining(", "));
-        System.out.println(result3);
+        System.out.println("result3: " + result10);
 
-        // 11. Grouping Elements
+        // 11. Grouping Elements 分组
         var result11 = movies.stream()
-                .collect(Collectors.groupingBy(Movie::getGenre,
-                        Collectors.mapping(Movie::getTitle,
-                                            Collectors.joining(", "))));
+                // Downstream: Collector accepting a second Collector as an argument.
+                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.mapping(Movie::getTitle, Collectors.joining(", "))));
+//                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.counting()));
+//                .collect(Collectors.groupingBy(movie -> movie.getGenre()));
 
         System.out.println(result11);
+
+        // 12. Partitioning 分类
+        var result12 = movies.stream()
+                    .collect(Collectors.partitioningBy(m -> m.getLikes() > 20,
+                            Collectors.mapping(Movie::getTitle,
+                                                Collectors.joining(", "))));
+
+        System.out.println(result12);
+
+        // 13. Primitive Type Stream
+        IntStream.generate(() -> (int)(Math.random() * 1000))
+                .limit(10)
+                .flatMap(y -> IntStream.of(y + 1000))
+                .skip(5)
+                .sorted()
+                .forEach(System.out::println);
+
     }
 }

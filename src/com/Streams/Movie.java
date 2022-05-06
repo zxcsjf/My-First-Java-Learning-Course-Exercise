@@ -1,6 +1,6 @@
 package com.Streams;
 
-public class Movie {
+public class Movie implements Comparable<Movie>{
     private String title;
     private int likes;
     private Genre genre;
@@ -30,5 +30,10 @@ public class Movie {
                 ", likes=" + likes +
                 ", genre=" + genre +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Movie o) {
+        return 0;
     }
 }

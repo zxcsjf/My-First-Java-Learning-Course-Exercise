@@ -1,14 +1,16 @@
 package com.Concurrency;
 
+// 1. Process contains an image of applications code, it has some memory and a brunch of other resources.
 public class ThreadDemo {
-    public static void show()  {
+    public static void show() {
         System.out.println(Thread.currentThread().getName());
         System.out.println(Thread.activeCount());
         System.out.println(Runtime.getRuntime().availableProcessors());
+        System.out.println(Runtime.getRuntime().totalMemory() / 1024 / 1024);
 
         for (var i = 0; i < 10; i++) {
             Thread thread = new Thread(new DownloadFileTask());
-            thread.start();
+//            thread.start();
             try {
                 // 告诉main方法，等待另一个thread的完成，此时main thread不能做别的事。
                 thread.join();
