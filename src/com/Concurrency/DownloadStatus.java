@@ -5,20 +5,51 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class DownloadStatus {
     private int totalBytes;
-    // 8. Lock
-    private Lock lock = new ReentrantLock();
+
+//    // 8. Lock
+//    private Lock lock = new ReentrantLock();
+
+// 9.
+//private Object totalBytesLock = new Object();
+
+// 10.
+    private boolean isDone = false;
 
     public int getTotalBytes() {
         return totalBytes;
     }
 
-    // 8. lock
-    public void incrementTotalBytes() {
-        lock.lock();
-        try {
-            totalBytes++;
-        } finally {
-            lock.unlock();
-        }
+    // 10. Volatile
+    public boolean isDone() {
+        return isDone;
     }
+
+    public void done() {
+        isDone = true;
+    }
+
+    public void incrementTotalBytes() {
+        totalBytes++;
+    }
+
+
+//    // 9. synchronized
+//    public void incrementTotalBytes() {
+//        // 9. 同步不要用this作为monitor object !!!
+//        //    也不要用 public synchronized void 方法，等效于用this
+//        synchronized (totalBytesLock) {
+//            totalBytes++;
+//        }
+//    }
+
+//    // 8. lock
+//    public void incrementTotalBytes() {
+//        lock.lock();
+//        try {
+//            totalBytes++;
+//        } finally {
+//            lock.unlock();
+//        }
+//    }
 }
+
