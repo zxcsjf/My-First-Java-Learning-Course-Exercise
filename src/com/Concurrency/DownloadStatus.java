@@ -9,11 +9,11 @@ public class DownloadStatus {
 //    // 8. Lock
 //    private Lock lock = new ReentrantLock();
 
-// 9.
-//private Object totalBytesLock = new Object();
+    // 9.
+    private Object totalBytesLock = new Object();
 
-// 10.
-    private boolean isDone = false;
+    // 10.
+    private volatile boolean isDone = false;
 
     public int getTotalBytes() {
         return totalBytes;
@@ -30,6 +30,7 @@ public class DownloadStatus {
 
     public void incrementTotalBytes() {
         totalBytes++;
+
     }
 
 

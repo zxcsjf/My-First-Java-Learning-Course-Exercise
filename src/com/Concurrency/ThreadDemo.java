@@ -13,9 +13,12 @@ public class ThreadDemo {
         // 模拟下载文件
         Thread thread1 = new Thread(new DownloadFileTask(status));
         // 检查下载是否完成
-        Thread thread2 = new Thread(() -> {
-           while (!status.isDone()){
-           }
+        Thread thread2;
+        thread2 = new Thread(() -> {
+            while (!status.isDone()) {
+
+            }
+//            System.out.println("After " + Thread.currentThread().getName());
             System.out.println(status.getTotalBytes());
         });
 
@@ -59,7 +62,6 @@ public class ThreadDemo {
 ////                .reduce(0, Integer::sum);
 ////
 ////        System.out.println(totalBytes);
-
 
 
 //        System.out.println(Thread.currentThread().getId());

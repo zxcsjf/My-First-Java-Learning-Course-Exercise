@@ -1,13 +1,8 @@
-package com.Concurrency;
+package com.Issue;
+
 
 public class DownloadFileTask implements Runnable {
     private DownloadStatus status;
-// 7.
-//    public DownloadFileTask() {
-//        this.status = new DownloadStatus();
-//    }
-
-    // 8. use lock
     public DownloadFileTask(DownloadStatus status) {
         this.status = status;
     }
@@ -15,22 +10,13 @@ public class DownloadFileTask implements Runnable {
     @Override
     public void run() {
         System.out.println("Downloading a file. " + Thread.currentThread().getName());
-//        System.out.println(Thread.currentThread().getName());
+        // 每个DownloadFIleTask下载1million字节
         for (var i = 0; i < 1_000_000; i++) {
             if (Thread.currentThread().isInterrupted()) break;
             status.incrementTotalBytes();
         }
-        // 10. Volatile
+        // 修改Download对象的标志位
         status.done();
-
-//        try {
-//            // 2. Pausing a thread
-//            //
-//            Thread.sleep(1);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-
         System.out.println("Download complete. " + Thread.currentThread().getName());
     }
 
