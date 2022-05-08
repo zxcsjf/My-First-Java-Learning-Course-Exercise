@@ -21,7 +21,17 @@ public class ThreadDemo {
 
                 // 3. 若DownloadFileStatus里的标志位前加上volatile, 这个循环体什么都不做，则证明了volatile的可以实现免锁线程安全（符合预期
 
-                // 4. 若这里什么都不写，但是在while循环这加上断点，debug模式运行，也会让thread2读到最新的数据，正常输出。（为什么和1.不一样？
+                // 4. 若这里什么都不写，但是在while循环这加上断点，debug模式运行，也会让thread2读到最新的数据，正常输出。（为什么和1.不一样？1
+
+//                // 5. wait()
+//                synchronized (status) {
+//                    try {
+//                        status.wait();
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
+
             }
             System.out.println(status.getTotalBytes());
         });

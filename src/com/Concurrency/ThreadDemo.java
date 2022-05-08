@@ -1,29 +1,62 @@
 package com.Concurrency;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.nio.charset.IllegalCharsetNameException;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentSkipListSet;
+import java.util.stream.Collectors;
 
 // 1. Process contains an image of applications code, it has some memory and a brunch of other resources.
 public class ThreadDemo {
     public static void show() {
 
-        // 10. Volatile "不稳定" visibility
-        var status = new DownloadStatus();
+        // 12. Concurrent Collection
+        Map<Integer, String> map = new ConcurrentHashMap<>();
+        map.put(1, "Shan");
+        map.get(1);
+        map.remove(1);
+        Set<Integer> set = new ConcurrentSkipListSet<>();
+        set.add(1);
 
-        // 模拟下载文件
-        Thread thread1 = new Thread(new DownloadFileTask(status));
-        // 检查下载是否完成
-        Thread thread2;
-        thread2 = new Thread(() -> {
-            while (!status.isDone()) {
-
-            }
-//            System.out.println("After " + Thread.currentThread().getName());
-            System.out.println(status.getTotalBytes());
+        // 11. Synchronized Collection
+//        Collection<Integer> collection1 = new ArrayList<>();
+        Collection<Integer> collection1 = Collections.synchronizedCollection(new ArrayList<>());
+        var thread1 = new Thread(() -> {
+            collection1.addAll(Arrays.asList(1, 2, 3));
+        });
+        var thread2 = new Thread(() -> {
+            collection1.addAll(Arrays.asList(4, 5, 6));
         });
 
         thread1.start();
         thread2.start();
+
+        try {
+            thread1.join();
+            thread2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(collection1);
+
+//        // 10. Volatile "不稳定" visibility
+//        var status = new DownloadStatus();
+
+//        // 模拟下载文件
+//        Thread thread1 = new Thread(new DownloadFileTask(status));
+//        // 检查下载是否完成
+//        Thread thread2;
+//        thread2 = new Thread(() -> {
+//            while (!status.isDone()) {
+//
+//            }
+////            System.out.println("After " + Thread.currentThread().getName());
+//            System.out.println(status.getTotalBytes());
+//        });
+//
+//        thread1.start();
+//        thread2.start();
 
 //        // 7. 9.
 //        var status = new DownloadStatus();
@@ -55,13 +88,13 @@ public class ThreadDemo {
 //        // 6. 失去更新
 //        // 8. Lock
 //        System.out.println(status.getTotalBytes());
+
+        // 7. Confinement
+//        var totalBytes = tasks.stream()
+//                .map(t -> t.getStatus().getTotalBytes())
+//                .reduce(0, Integer::sum);
 //
-//        // 7. Confinement
-////        var totalBytes = tasks.stream()
-////                .map(t -> t.getStatus().getTotalBytes())
-////                .reduce(0, Integer::sum);
-////
-////        System.out.println(totalBytes);
+//        System.out.println(totalBytes);
 
 
 //        System.out.println(Thread.currentThread().getId());

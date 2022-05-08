@@ -3,6 +3,7 @@ package com.Issue;
 
 public class DownloadFileTask implements Runnable {
     private DownloadStatus status;
+
     public DownloadFileTask(DownloadStatus status) {
         this.status = status;
     }
@@ -17,6 +18,10 @@ public class DownloadFileTask implements Runnable {
         }
         // 修改Download对象的标志
         status.done();
+
+//        synchronized (status) {
+//            status.notify();
+//        }
         System.out.println("Download complete. " + Thread.currentThread().getName());
     }
 

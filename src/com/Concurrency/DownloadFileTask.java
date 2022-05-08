@@ -2,7 +2,7 @@ package com.Concurrency;
 
 public class DownloadFileTask implements Runnable {
     private DownloadStatus status;
-// 7.
+// // 7.
 //    public DownloadFileTask() {
 //        this.status = new DownloadStatus();
 //    }
@@ -16,12 +16,12 @@ public class DownloadFileTask implements Runnable {
     public void run() {
         System.out.println("Downloading a file. " + Thread.currentThread().getName());
 //        System.out.println(Thread.currentThread().getName());
-        for (var i = 0; i < 1_000_000; i++) {
+        for (var i = 0; i < 10_000; i++) {
             if (Thread.currentThread().isInterrupted()) break;
             status.incrementTotalBytes();
         }
-        // 10. Volatile
-        status.done();
+//        // 10. Volatile
+//        status.done();
 
 //        try {
 //            // 2. Pausing a thread

@@ -1,17 +1,19 @@
 package com.Issue;
 
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DownloadStatus {
-    private int totalBytes;
+    private AtomicInteger totalBytes = new AtomicInteger();
     private Object totalBytesLock = new Object();
-    private boolean isDone = false;
+    private  boolean isDone = false;
+
 
     public void incrementTotalBytes() {
         synchronized (totalBytesLock) {
-            totalBytes++;
+            totalBytes.incrementAndGet();
         }
     }
 
@@ -24,7 +26,7 @@ public class DownloadStatus {
     }
 
     public int getTotalBytes() {
-        return totalBytes;
+        return totalBytes.get();
     }
 }
 

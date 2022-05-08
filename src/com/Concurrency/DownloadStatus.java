@@ -1,10 +1,12 @@
 package com.Concurrency;
 
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.LongAdder;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DownloadStatus {
-    private int totalBytes;
+    private LongAdder totalBytes = new LongAdder();
 
 //    // 8. Lock
 //    private Lock lock = new ReentrantLock();
@@ -14,23 +16,22 @@ public class DownloadStatus {
 
     // 10.
     private volatile boolean isDone = false;
-
+//
     public int getTotalBytes() {
-        return totalBytes;
+        return totalBytes.intValue();
     }
-
-    // 10. Volatile
-    public boolean isDone() {
-        return isDone;
-    }
-
+//
+//    // 10. Volatile
+//    public boolean isDone() {
+//        return isDone;
+//    }
+//
     public void done() {
         isDone = true;
     }
 
     public void incrementTotalBytes() {
-        totalBytes++;
-
+        totalBytes.increment();
     }
 
 
@@ -52,5 +53,6 @@ public class DownloadStatus {
 //            lock.unlock();
 //        }
 //    }
+
 }
 
