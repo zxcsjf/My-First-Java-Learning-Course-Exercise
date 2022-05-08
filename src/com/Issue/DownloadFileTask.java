@@ -15,7 +15,7 @@ public class DownloadFileTask implements Runnable {
             if (Thread.currentThread().isInterrupted()) break;
             status.incrementTotalBytes();
         }
-        // 修改Download对象的标志位
+        // 修改Download对象的标志
         status.done();
         System.out.println("Download complete. " + Thread.currentThread().getName());
     }
