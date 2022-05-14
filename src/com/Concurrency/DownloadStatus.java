@@ -6,6 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DownloadStatus {
+
     private LongAdder totalBytes = new LongAdder();
 
 //    // 8. Lock

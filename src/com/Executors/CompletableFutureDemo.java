@@ -4,12 +4,12 @@ import java.util.concurrent.*;
 import java.util.function.Supplier;
 
 public class CompletableFutureDemo {
-    // 6.
+    // 6. 使用CompletableFuture的方法，以申明的方式执行复杂的异步操作
     public static int toFahrenheit(int celsius) {
         return (int) (celsius * 1.8) + 32;
     }
 
-    // 7.
+    // 7. 用函数转换结果
     public static CompletableFuture<String> getUserEmailAsync() {
         return CompletableFuture.supplyAsync(() -> "email");
     }
@@ -19,10 +19,6 @@ public class CompletableFutureDemo {
     }
 
     public static void show() {
-
-        String s1 = "123";
-        String s2 = "123";
-        System.out.println(s1==s2);
 
         // 10. 处理超时
         var t10 = CompletableFuture.supplyAsync(() ->{
@@ -64,8 +60,8 @@ public class CompletableFutureDemo {
         var second = CompletableFuture.supplyAsync(() -> 0.9);
 
         first // 不会阻塞main
-                .thenCombine(second, (price, exchangeRate) -> price * exchangeRate) // 返回一个新的CompletableFuture object
-                .thenAccept(res8 -> System.out.println(res8));
+              .thenCombine(second, (price, exchangeRate) -> price * exchangeRate) // 返回一个新的CompletableFuture object
+              .thenAccept(res8 -> System.out.println(res8));
 
         // 7. Composing. 以declarative方式构建复杂的异步操作。
         getUserEmailAsync()
@@ -85,8 +81,8 @@ public class CompletableFutureDemo {
         });
 
         try {
-            var res = future5.exceptionally(e -> 5);
-            System.out.println(res.get());
+            var res = future5.exceptionally(e -> 5).get();
+            System.out.println(res);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
