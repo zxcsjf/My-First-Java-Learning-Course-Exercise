@@ -29,4 +29,5 @@ public class FlightService {
             return new Quote(site, price);
         });
     }
+
 }
