@@ -8,35 +8,243 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Stream;
 
+class Solution34 {
+    public static void main(String[] args) {
+        System.out.print("请输入一个大于等于7位的整数： ");
+        Scanner scanner34 = new Scanner(System.in);
+        int number = scanner34.nextInt();
+
+        int b4 = number / 10_000 % 10;
+        int b5 = number / 100_000 % 10;
+        int b6 = number / 1000_000 % 10;
+        int b7 = number / 10_000_000 % 10;
+
+        System.out.println(b7 * 1000 + b6 * 100 + b5 * 10 + b4);
+    }
+}
+
+//class Solution33 {
+//    public static void main(String[] args) {
+//        System.out.println("1~99范围的同构数有：");
+//        for (int i = 1; i < 10; i++) {
+//            if (i == i * i % 10) System.out.println(i);
+//        }
+//        for (int i = 10; i < 100; i++) {
+//            int geWei = i * i % 10;
+//            int shiWei = i * i / 10 % 10;
+//            if (i == shiWei*10 + geWei) System.out.println(i);
+//        }
+//    }
+//}
+
+//class Solution32 {
+//    public static void main(String[] args) {
+//        System.out.print("Please input a 4 digits int number: ");
+//        Scanner scanner31 = new Scanner(System.in);
+//        int number = scanner31.nextInt();
+//
+//        int qianWei = number / 1_000;
+//        int baiWei = (number - qianWei * 1000) / 100;
+//        int shiWei = (number - qianWei * 1000 - baiWei * 100) / 10;
+//        int geWei = (number - qianWei * 1000 - baiWei * 100 - shiWei * 10);
+//
+//        int newGeWei = (qianWei + 5) % 10;
+//        int newShiWei = (baiWei + 5) % 10;
+//        int newBaiWei = (shiWei + 5) % 10;
+//        int newQianWei = (geWei + 5) % 10;
+//
+//        System.out.println(newQianWei * 1000 + newBaiWei * 100 + newShiWei * 10 + newGeWei);
+//    }
+//}
+
+//class Solution31 {
+//    public static void main(String[] args) {
+//        System.out.print("Please enter a int number：");
+//        Scanner scanner31 = new Scanner(System.in);
+//        int number = scanner31.nextInt();
+//        if (number%2 == 0)
+//            System.out.println(number + "是偶数。");
+//        else if(number%2 == 1)
+//            System.out.println(number + "是奇数。");
+//        else System.out.println("Invalid number!");
+//    }
+//}
+
+//class Solution30 {
+//    public static void main(String[] args) {
+//        System.out.print("Please enter a int number：");
+//        Scanner scanner30 = new Scanner(System.in);
+//        int number = scanner30.nextInt();
+//        int count = 0;
+//        while (true) {
+//            if (number % 9 == 0) count++;
+//            else break;
+//            number /= 9;
+//        }
+//
+//        System.out.println("这个数能被" + count + "个9整除。");
+//    }
+//}
+
+//class Solution29 {
+//    public static void main(String[] args) {
+//        float h = 200L;
+//        float sum = 0L;
+//        int number = 10; // 便于reuse
+//        for (int i = 1; i <= number; i++) {
+//            sum += h;
+//            h /= 2;
+//        }
+//        System.out.println("第十次落地共经过" + (sum-100) + "米");
+//        System.out.println("第十次反弹高度" + h/2 + "米");
+//    }
+//}
+
+//class Solution28 {
+//    public static void main(String[] args) {
+//        System.out.println("Please enter 3 Integer for compare: ");
+//        Scanner scanner281 = new Scanner(System.in);
+//        int a = scanner281.nextInt();
+//        Scanner scanner282 = new Scanner(System.in);
+//        int b = scanner282.nextInt();
+//        Scanner scanner283 = new Scanner(System.in);
+//        int c = scanner283.nextInt();
+//
+//        System.out.println("Max is " + ((a >= b && a >= c) ? a : (b >= a && b >= c ? b : c)));
+//    }
+//}
+
+//class Solution27 {
+//    public static void main(String[] args) {
+//        System.out.println("Please enter 3 Integer for compare: ");
+//        Scanner scanner271 = new Scanner(System.in);
+//        int a = scanner271.nextInt();
+//        Scanner scanner272 = new Scanner(System.in);
+//        int b = scanner272.nextInt();
+//        Scanner scanner273 = new Scanner(System.in);
+//        int c = scanner273.nextInt();
+//
+//        if (a >= b && a >= c)
+//            System.out.println("Max is " + a);
+//        if (b >= a && b >= c)
+//            System.out.println("Max is " + b);
+//        if (c >= b && c >= a)
+//            System.out.println("Max is " + c);
+//
+//    }
+//}
+
+//class Solution26 {
+//    public static void main(String[] args) {
+//        while (true) {
+//            System.out.print("Please enter the first character of the day: ");
+//            Scanner scanner26 = new Scanner(System.in);
+//            String string26 = scanner26.nextLine();
+//            if (string26.toLowerCase().equals("m"))
+//                System.out.println("You mean Monday");
+//            else if (string26.toLowerCase().equals("w"))
+//                System.out.println("You mean Wednesday");
+//            else if (string26.toLowerCase().equals("f"))
+//                System.out.println("You mean Friday");
+//            else if (string26.toLowerCase().equals("t")) {
+//                System.out.print("Please enter the second character of the day: ");
+//                Scanner scanner260 = new Scanner(System.in);
+//                String string261 = scanner260.nextLine();
+//                if (string261.toLowerCase().equals("u"))
+//                    System.out.println("You mean Tuesday");
+//                else if(string261.toLowerCase().equals("h"))
+//                    System.out.println("You mean Thursday");
+//                else System.out.println("Invalid input!");
+//            } else if (string26.toLowerCase().equals("s")) {
+//                System.out.print("Please enter the second character of the day: ");
+//                Scanner scanner262 = new Scanner(System.in);
+//                String string262 = scanner262.nextLine();
+//                if (string262.toLowerCase().equals("a"))
+//                    System.out.println("You mean Saturday");
+//                else if(string262.toLowerCase().equals("u"))
+//                    System.out.println("You mean Sunday");
+//                else System.out.println("Invalid input!");
+//            }else if (string26.toLowerCase().equals("exit")) break; // end while.
+//            else System.out.println("Invalid input!");
+//        }
+//    }
+//}
+
+//class Solution25 {
+//    public static void main(String[] args) {
+//        int sum = 0;
+//        for (int i = 1; i <= 100; i += 2)
+//            sum += i;
+//        System.out.println(sum);
+//    }
+//}
+
+//class Solution24 {
+//    public static void main(String[] args) {
+//        long sum = 0;
+//        long fibo = 1;
+//        int n = 1;
+//        while (n <= 20) {
+//            fibo = fibo * n++; // 完成计算通项
+//            sum = sum + fibo; // 完成求和
+//        }
+//        System.out.println(sum);
+////        long sum = 0;
+////        for (int i = 1; i <= 20; i++)
+////            sum+=getFactorial(i);
+////
+////        System.out.println(sum);
+//    }
+//
+////    public static long getFactorial(int value) {
+////        long result = 1;
+////        for (int i = 1; i <= value; i++)
+////            result *= i;
+////        return result;
+////    }
+//
+//}
+
+//class Solution23 {
+//    public static void main(String[] args) {
+//        int length = 21; // 方便重用代码
+//        float[] fibo = new float[length];
+//        fibo[0] = 1F;
+//        fibo[1] = 2F;
+//        for (int i = 2; i < length; i++)
+//            fibo[i] = fibo[i - 2] + fibo[i - 1];
+//
+//        float sum = 0;
+//        for (int i = 1; i < length; i++) {
+//            sum += (fibo[i] / fibo[i - 1]);
+//        }
+//
+//        System.out.println(sum);
+//    }
+//}
+
 //class Solution22 {
 //    public static void main(String[] args) {
 //        Scanner scanner22 = new Scanner(System.in);
-////        int input;
 //        String rawInput;
 //        char[] rawArray;
 //        while (true) {
-//            System.out.println("Please enter a 5 digits number: ");
-//            rawInput = scanner22.nextLine();
-//            rawArray = rawInput.toCharArray();
-//            if (rawInput.length() > 5) System.out.println("Invalid Number!");
-//            else break;
+//            System.out.print("请输入一个不超过五位数: ");
+//            rawInput = scanner22.nextLine(); // 读入是String
+//            rawArray = rawInput.toCharArray(); // 后面对数组进行求长、置逆
+//            if (rawInput.length() > 5) System.out.println("Invalid Number! Please renter!");
+//            else {
+//                System.out.println("你输入的是" + rawInput.length() + "位数。");
+//                break;
+//            }
 //        }
-//        int length = rawInput.length();
-//        int[] reversed = new int[];
-//        for (var i = 0; i < length; i++){
-//            reversed[i] = rawArray[length - i];
-//        }
-//        System.out.println(reversed);
-
-
-//        int valueOfShiWanWei = input / 100_000;
-//        int valueOfWanWei = (input - valueOfShiWanWei * 100_000) / 10_000;
-//        int valueOfQianWei = (input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000) / 1000;
-//        int valueOfBaiWei = (input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000 - valueOfQianWei * 1000) / 100;
-//        int valueOfShiWei = (input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000 - valueOfQianWei * 1000 - valueOfBaiWei * 100) / 10;
-//        int valueOfGeWei = input - valueOfShiWanWei * 100_000 - valueOfWanWei * 10_000 - valueOfQianWei * 1000 - valueOfBaiWei * 100 - valueOfShiWei * 10;
 //
-//        System.out.print(valueOfGeWei * 100_000 + valueOfShiWei * 10_000 + valueOfBaiWei * 1000 + valueOfQianWei * 100 + valueOfWanWei * 10 + valueOfShiWanWei);
+//        int length = rawArray.length;
+//        char[] reversed = new char[length];
+//        for (var i = 0; i < length; i++)
+//            reversed[i] = rawArray[length - i - 1]; // 注意要多减一
+//
+//        System.out.println(reversed);
 //
 //    }
 //}
@@ -341,3 +549,4 @@ import java.util.stream.Stream;
 //
 //    }
 //}
+
