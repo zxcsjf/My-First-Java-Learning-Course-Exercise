@@ -8,20 +8,21 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Stream;
 
-class Solution34 {
-    public static void main(String[] args) {
-        System.out.print("请输入一个大于等于7位的整数： ");
-        Scanner scanner34 = new Scanner(System.in);
-        int number = scanner34.nextInt();
 
-        int b4 = number / 10_000 % 10;
-        int b5 = number / 100_000 % 10;
-        int b6 = number / 1000_000 % 10;
-        int b7 = number / 10_000_000 % 10;
-
-        System.out.println(b7 * 1000 + b6 * 100 + b5 * 10 + b4);
-    }
-}
+// class Solution34 {
+//    public static void main(String[] args) {
+//        System.out.print("请输入一个大于等于7位的整数： ");
+//        Scanner scanner34 = new Scanner(System.in);
+//        int number = scanner34.nextInt();
+//
+//        int b4 = number / 10_000 % 10;
+//        int b5 = number / 100_000 % 10;
+//        int b6 = number / 1000_000 % 10;
+//        int b7 = number / 10_000_000 % 10;
+//
+//        System.out.println(b7 * 1000 + b6 * 100 + b5 * 10 + b4);
+//    }
+// }
 
 //class Solution33 {
 //    public static void main(String[] args) {
