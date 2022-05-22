@@ -10,7 +10,9 @@ import java.util.stream.Stream;
 
 
 class Solution35 {
+    public static void main(String[] args) {
 
+    }
 }
 
 // class Solution34 {

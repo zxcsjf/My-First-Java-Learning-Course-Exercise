@@ -7,7 +7,8 @@ import java.util.TreeMap;
 public class Main {
     public static void main(String[] args) {
 
-
+        var npy1 = new GirlFriend(23, 8000, 3, 90);
+        System.out.println(npy1.canWeMarry());
 //        System.out.printf("%x");
 //       Solution.printPerfectNumber(1_000);
 
