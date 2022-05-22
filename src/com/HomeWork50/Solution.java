@@ -9,6 +9,10 @@ import java.util.*;
 import java.util.stream.Stream;
 
 
+class Solution35 {
+
+}
+
 // class Solution34 {
 //    public static void main(String[] args) {
 //        System.out.print("请输入一个大于等于7位的整数： ");
