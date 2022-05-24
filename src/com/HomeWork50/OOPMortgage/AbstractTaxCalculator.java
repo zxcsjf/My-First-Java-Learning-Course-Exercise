@@ -1,4 +1,4 @@
-package com.OOPMortgage;
+package com.HomeWork50.OOPMortgage;
 
 public abstract class AbstractTaxCalculator implements TaxCalculator{
     protected static double getTaxableIncome(

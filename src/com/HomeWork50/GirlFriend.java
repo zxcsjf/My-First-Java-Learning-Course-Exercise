@@ -18,4 +18,14 @@ public class GirlFriend {
             return "Yes!";
         else return "No!";
     }
+/**
+ * description
+ * @param null 
+ * @return
+ * @author ShanJifei
+ * @since 2022/05/23 8:43
+ */
+    public String canWeHaveAChild() {
+        return "NO!";
+    }
 }

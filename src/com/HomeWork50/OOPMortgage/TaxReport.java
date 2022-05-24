@@ -1,4 +1,4 @@
-package com.OOPMortgage;
+package com.HomeWork50.OOPMortgage;
 
 public class TaxReport {
 //    private TaxCalculator calculator;

@@ -1,4 +1,4 @@
-package com.OOPMortgage;
+package com.HomeWork50.OOPMortgage;
 
 public class TaxCalculator2018 extends AbstractTaxCalculator {
     private double taxableIncome;

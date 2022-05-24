@@ -1,6 +1,4 @@
-package com.OOPMortgage;
-
-import java.text.NumberFormat;
+package com.HomeWork50.OOPMortgage;
 
 // 8.这个类完全不关心如何展示数据，只关心计算。
 public class MortgageCalculator {

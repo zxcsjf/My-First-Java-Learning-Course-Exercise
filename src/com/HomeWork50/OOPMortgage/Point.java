@@ -1,4 +1,4 @@
-package com.OOPMortgage;
+package com.HomeWork50.OOPMortgage;
 
 import java.util.Objects;
 
@@ -27,7 +27,7 @@ public class Point {
 //        int result = x;
 //        result = 31 * result + y;
 //        return result;
-//    }
+//    } 
 
     @Override
     public boolean equals(Object o) {
