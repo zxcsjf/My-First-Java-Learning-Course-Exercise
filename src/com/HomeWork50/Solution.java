@@ -1,106 +1,162 @@
 package com.HomeWork50;
 
-class Solution42 {
+
+class Solution50 {
     public static void main(String[] args) {
-        long start1 = System.currentTimeMillis();
-        // System.out.println(Fibo1(45));
-        long memory1 = Runtime.getRuntime().freeMemory();
-        System.out.println(Fibo2(100_000));
-        long memory2 = Runtime.getRuntime().freeMemory();
-        long end1 = System.currentTimeMillis();
+        int a = -1234;
 
-        System.out.println("消耗内存" + (memory1 - memory2) + "字节。");
-        System.out.println("耗时" + (end1 - start1) + "ms");
+        System.out.println(abs1(a));
+        System.out.println(abs2(a));
+
+        a = 1234;
+
+        System.out.println(abs1(a));
+        System.out.println(abs2(a));
     }
 
-    // 递归，自顶向下，效率低
-    public static long Fibo1(int n) {
-        if (n <= 1) {
-            return n;
-        }
-        return Fibo1(n - 1) + Fibo1(n - 2);
+    public static int abs1(int a) {
+        int i = a >> 31;
+        return i == 0 ? a : ~a + 1;
     }
 
-    // 循环，自底向上，效率高
-    public static long Fibo2(long n) {
-        long[] result = {0, 1};
-        if (n < 2) {
-            return n;
-        }
-        long first = 0;
-        long second = 1;
-        long fibn = 0;
-        for (long i = 1; i < n; i++){
-            fibn = first + second;
-            first = second;
-            second = fibn;
-        }
-        return fibn;
+    public static int abs2(int a) {
+        int i = a >> 31;
+        return (a ^ i) - i;
     }
 }
 
+// class Solution45 {
+// public static void main(String[] args) {
+// System.out.println(factorial(5));
+// }
+//
+// public static int factorial(int n) {
+// if (n == 1) {
+// return 1;
+// }
+// return n * factorial(n - 1);
+// }
+// }
+
+// class Solution43 {
+// public static void main(String[] args) {
+// int peach = 1;
+// for (int i = 1; i < 10; i++) {
+// peach = (peach + 1) * 2;
+// }
+// System.out.println("一开始共有" + peach + "个桃子。");
+// }
+// }
+
+// class Solution42 {
+// public static void main(String[] args) {
+// int month = 45;
+//
+// long start2 = System.currentTimeMillis();
+// long memory3 = Runtime.getRuntime().freeMemory();
+// System.out.println("第" + month + "个月兔子有" + Fibo2(month) + "对.");
+// long memory4 = Runtime.getRuntime().freeMemory();
+// long end2 = System.currentTimeMillis();
+// System.out.println("循环消耗内存" + (memory3 - memory4) + "字节。");
+// System.out.println("循环耗时" + (end2 - start2) + "ms");
+//
+// System.out.println();
+// long start1 = System.currentTimeMillis();
+// long memory1 = Runtime.getRuntime().freeMemory();
+// System.out.println("第" + month + "个月兔子有" + Fibo1(month) + "对.");
+// long memory2 = Runtime.getRuntime().freeMemory();
+// long end1 = System.currentTimeMillis();
+// System.out.println("递归消耗内存" + (memory1 - memory2) + "字节。");
+// System.out.println("递归耗时" + (end1 - start1) + "ms");
+// }
+//
+// // 递归，自顶向下，效率低
+// public static long Fibo1(int n) {
+// if (n < 2) {
+// return n;
+// }
+// return Fibo1(n - 1) + Fibo1(n - 2);
+// }
+//
+// // 循环，自底向上，效率高
+// public static long Fibo2(long n) {
+// if (n < 2) {
+// return n;
+// }
+// long first = 0;
+// long second = 1;
+// long fibn = 0;
+// for (long i = 1; i < n; i++){
+// fibn = first + second;
+// first = second;
+// second = fibn;
+// }
+// return fibn;
+// }
+// }
+
 // class Solution41 {
-//     public static void main(String[] args) {
-//         System.out.println("请输入一个int数组：");
-//         Scanner scanner41 = new Scanner(System.in);
+// public static void main(String[] args) {
+// System.out.println("请输入一个int数组：");
+// Scanner scanner41 = new Scanner(System.in);
 //
-//         String[] nums = scanner41.nextLine().split(" ");
-//         int[] num = new int[nums.length];
-//         for (int i = 0; i < num.length; i++) {
-//             num[i] = Integer.valueOf(nums[i]);
-//         }
+// String[] nums = scanner41.nextLine().split(" ");
+// int[] num = new int[nums.length];
+// for (int i = 0; i < num.length; i++) {
+// num[i] = Integer.valueOf(nums[i]);
+// }
 //
-//         int max = num[0];
-//         int min = num[0];
-//         for (int i = 1; i < num.length; i++) {
-//             max = max >= num[i] ? max : num[i];
-//             min = min <= num[i] ? min : num[i];
-//         }
+// int max = num[0];
+// int min = num[0];
+// for (int i = 1; i < num.length; i++) {
+// max = max >= num[i] ? max : num[i];
+// min = min <= num[i] ? min : num[i];
+// }
 //
-//         for (int i = 0; i < num.length; i++) {
-//             if (max == num[i]){
-//                 int temp = num[0];
-//                 num[0] = num[i];
-//                 num[i] = temp;
-//             }
+// for (int i = 0; i < num.length; i++) {
+// if (max == num[i]){
+// int temp = num[0];
+// num[0] = num[i];
+// num[i] = temp;
+// }
 //
-//             if (min == num[i]){
-//                 int temp = num[num.length - 1];
-//                 num[num.length - 1] = num[i];
-//                 num[i] = temp;
-//             }
-//         }
+// if (min == num[i]){
+// int temp = num[num.length - 1];
+// num[num.length - 1] = num[i];
+// num[i] = temp;
+// }
+// }
 //
-//             System.out.println(Arrays.toString(num));
-//     }
+// System.out.println(Arrays.toString(num));
+// }
 // }
 
 // class Solution40 {
-//     public static void main(String[] args) {
-//         System.out.println("请输入一个正整数：");
-//         Scanner scanner40 = new Scanner(System.in);
-//         int number = scanner40.nextInt();
-//         double sum = 0;
+// public static void main(String[] args) {
+// System.out.println("请输入一个正整数：");
+// Scanner scanner40 = new Scanner(System.in);
+// int number = scanner40.nextInt();
+// double sum = 0;
 //
-//         while (number > 0) {
-//             sum += 1.0 / number;
-//             number -= 2;
-//         }
+// while (number > 0) {
+// sum += 1.0 / number;
+// number -= 2;
+// }
 //
-//         System.out.println(sum);
-//     }
+// System.out.println(sum);
+// }
 // }
 
 // class Solution39 {
 //     public static void main(String[] args) {
-//         int a = 512;
+//         int a = 1024;
 //         int b = 128;
-//         System.out.println(a + "和" + b + "最大公约数是" + Gcd(a, b));
-//         System.out.println(a + "和" + b + "最小公倍数是" + a * b / Gcd(a, b));
+//         System.out.println(a + "和" + b + "最大公约数是" + gcd(a, b));
+//         System.out.println(a + "和" + b + "最小公倍数是" + a * b / gcd(a, b));
 //     }
 //
-//     public static int Gcd(int a, int b) {
-//         return b == 0 ? a : Gcd(b, a % b);
+//     public static int gcd(int a, int b) {
+//         return b == 0 ? a : gcd(b, a % b);
 //     }
 // }
 
@@ -111,90 +167,91 @@ class Solution42 {
 //         int a = scanner380.nextInt();
 //         System.out.print("请再输入1个整数(>0)：");
 //         int b = scanner380.nextInt();
+//
 //         long sum = 0;
 //         int number = 0;
 //         for (int i = 0; i < b; i++) {
 //             number += (a * Math.pow(10, i));
 //             sum += number;
-//
 //         }
 //
 //         System.out.println(sum);
-//
 //     }
 // }
 
 // class Solution37 {
 //     public static void main(String[] args) {
+//         int remainMoney = 20;
+//         int price = 3;
+//         int moneyOfBottle = 1;
 //         int totalBottle = 0;
 //         int bottle;
-//         int price = 3;
-//         int remainMoney = 20;
-//         int moneyOfBottle = 1;
 //
-//         while (remainMoney >= 3){
-//             bottle =  remainMoney / price;
+//         while (remainMoney >= 3) {
+//             bottle = remainMoney / price;
 //             totalBottle += bottle;
 //             remainMoney = remainMoney % price + bottle * moneyOfBottle;
 //         }
+//        
 //         System.out.println("总共可以喝" + totalBottle + "瓶");
 //         System.out.println("还剩" + remainMoney + "元");
-//         if (remainMoney == 2){
+//
+//         if (remainMoney == 2) {
 //             System.out.println("可以再借1元，凑足3元，买一瓶，喝完用瓶子换1元还钱");
-//             System.out.println("这样可以喝" + (totalBottle+1) + "瓶。");
+//             System.out.println("这样可以喝" + (totalBottle + 1) + "瓶。");
 //         }
 //     }
 // }
 
 // class Solution36 {
-//     public static void main(String[] args) {
-//         int count = 7;
-//         while (count > 0) {
-//             System.out.print("请输入1个整数（1~50）：");
-//             Scanner scanner36 = new Scanner(System.in);
-//             int numberOfStar = scanner36.nextInt();
+// public static void main(String[] args) {
+// int count = 7;
+// while (count > 0) {
+// System.out.print("请输入1个整数（1~50）：");
+// Scanner scanner36 = new Scanner(System.in);
+// int numberOfStar = scanner36.nextInt();
 //
-//             for (int i = 0; i < numberOfStar; i++) {
-//                 System.out.print("*");
-//             }
-//             count--;
-//             System.out.println();
-//             System.out.println("还要输入" + count + "次。");
-//             System.out.println();
-//         }
-//     }
+// for (int i = 0; i < numberOfStar; i++) {
+// System.out.print("*");
+// }
+// count--;
+// System.out.println();
+// System.out.println("还要输入" + count + "次。");
+// System.out.println();
+// }
+// }
 // }
 
 // // 末位从四个奇数选一个，4种情况
 // // 开头从剩下的非零6个数选一个，6种情况
 // // 中间是A66
 // class Solution35 {
-//     public static void main(String[] args) {
-//         int sum = 4 * 6;
-//         for (int i = 1; i <= 6; i++) {
-//             sum *= i;
-//         }
-//         System.out.println("符合要求的奇数共有" + sum + "种。");
-//     }
+// public static void main(String[] args) {
+// int sum = 4 * 6;
+// for (int i = 1; i <= 6; i++) {
+// sum *= i;
+// }
+// System.out.println("符合要求的奇数共有" + sum + "种。");
+// }
 // }
 
 // class Solution34 {
-//     public static void main(String[] args) {
-//         System.out.print("请输入一个大于等于7位的整数： ");
-//         Scanner scanner34 = new Scanner(System.in);
-//         int number = scanner34.nextInt();
+// public static void main(String[] args) {
+// System.out.print("请输入一个大于等于7位的整数： ");
+// Scanner scanner34 = new Scanner(System.in);
+// int number = scanner34.nextInt();
 //
-//         int b4 = number / 1_000 % 10;
-//         int b5 = number / 10_000 % 10;
-//         int b6 = number / 100_000 % 10;
-//         int b7 = number / 1000_000 % 10;
+// int b4 = number / 1_000 % 10;
+// int b5 = number / 10_000 % 10;
+// int b6 = number / 100_000 % 10;
+// int b7 = number / 1000_000 % 10;
 //
-//         System.out.print("这个数右起的4~7位是：");
-//         System.out.print(b7);
-//         System.out.print(b6);
-//         System.out.print(b5);
-//         System.out.print(b4);
-//     }
+// System.out.print("这个数右起的4~7位是：");
+// System.out.print(b7);
+// System.out.print(b6);
+// System.out.print(b5);
+// System.out.print(b4);
+// }
 // }
 
 // class Solution33 {
@@ -345,38 +402,51 @@ class Solution42 {
 // }
 
 // class Solution25 {
+//     public static void main(String[] args) {
+//         int sum = 0;
+//
+//         for (int i = 1; i <= 100; i += 2) {
+//             sum += i;
+//         }
+//        
+//         System.out.println(sum);
+//     }
+// }
+
+// class Solution241 {
 // public static void main(String[] args) {
-// int sum = 0;
-// for (int i = 1; i <= 100; i += 2)
-// sum += i;
+// int max = 20;
+// long sum = 0;
+// for (int i = 1; i <= max; i++) {
+// sum += getFactorial(i);
+// }
+//
 // System.out.println(sum);
+// }
+//
+// public static long getFactorial(int value) {
+// long result = 1;
+// for (int i = 1; i <= value; i++) {
+// result *= i;
+// }
+// return result;
 // }
 // }
 
-// class Solution24 {
+// class Solution240 {
 // public static void main(String[] args) {
+// int max = 20;
 // long sum = 0;
-// long fibo = 1;
+// long number = 1;
 // int n = 1;
-// while (n <= 20) {
-// fibo = fibo * n++; // 完成计算通项
-// sum = sum + fibo; // 完成求和
+//
+// while (n <= max) {
+// number = number * n++; // 计算通项
+// sum = sum + number; // 求和
 // }
+//
 // System.out.println(sum);
-//// long sum = 0;
-//// for (int i = 1; i <= 20; i++)
-//// sum+=getFactorial(i);
-////
-//// System.out.println(sum);
 // }
-//
-//// public static long getFactorial(int value) {
-//// long result = 1;
-//// for (int i = 1; i <= value; i++)
-//// result *= i;
-//// return result;
-//// }
-//
 // }
 
 // class Solution23 {
@@ -385,8 +455,10 @@ class Solution42 {
 // float[] fibo = new float[length];
 // fibo[0] = 1F;
 // fibo[1] = 2F;
-// for (int i = 2; i < length; i++)
+//
+// for (int i = 2; i < length; i++) {
 // fibo[i] = fibo[i - 2] + fibo[i - 1];
+// }
 //
 // float sum = 0;
 // for (int i = 1; i < length; i++) {
@@ -466,25 +538,27 @@ class Solution42 {
 // }
 // }
 
+// import java.util.Scanner;
+//
 // class Solution {
 // public static void main(String[] args) {
 // System.out.print("Input date(yyyy-mm-dd): ");
 // Scanner scanner = new Scanner(System.in);
 // String input = scanner.nextLine();
 //
-// short year = Short.valueOf(input.substring(0, 4));
-// byte month = Byte.valueOf(input.substring(5, 7));
-// short day = Short.valueOf(input.substring(8, 10));
-// short days = 0;
-// byte[] monthList = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+// int year = Short.valueOf(input.substring(0, 4));
+// int month = Byte.valueOf(input.substring(5, 7));
+// int day = Short.valueOf(input.substring(8, 10));
+// int days = 0;
+// int[] monthList = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 //
-//// 没有实现对输入的日期合法性做判断
-// for (byte i = 0; i < month - 1; i++) {
+// // 没有实现对输入的日期合法性做判断
+// for (int i = 0; i < month - 1; i++) {
 // days += monthList[i];
 // }
 // days += day;
-// if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0 ) {
-// if(month >= 3)
+// if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {
+// if (month >= 3)
 // days++;
 // }
 // System.out.println("你输入的日期是这一年中的第：" + days + "天。");
@@ -561,8 +635,9 @@ class Solution42 {
 // }
 // }
 
-//// 18. 1000以内所有的完全数
-//// 它所有的真因子（即除了自身以外的约数）的和，恰好等于它本身，完全数不可能是楔形数、平方数、佩尔数或费波那契数。
+// // 18. 1000以内所有的完全数
+// // 它所有的真因子（即除了自身以外的约数）的和，恰好等于它本身，
+// // 完全数不可能是楔形数、平方数、佩尔数或费波那契数。
 // public class Solution {
 // public static void printPerfectNumber(int maxValue) {
 // int sum;
@@ -575,7 +650,6 @@ class Solution42 {
 // if (sum == i)
 // System.out.println(i);
 // }
-//
 // }
 //
 // public static void main(String[] args) {
@@ -583,7 +657,7 @@ class Solution42 {
 // }
 // }
 
-//// 17. 9 X 9 口诀表
+// // 17. 9 X 9 口诀表
 // public class Solution {
 // public static void print9x9Sheet() {
 // for (int i = 1; i <= 9; i++) {
@@ -699,11 +773,14 @@ class Solution42 {
 // }
 // }
 
-// 11. 回文数 解法二
-// public class Solution {
-// public static boolean isPalindrome(int x){
-// if (x == 0) return true;
-// if (x < 0 || x % 10 == 0) return false;
+// // 11. 回文数 解法二
+// class Solution111 {
+// // 来自LeetCode的解法，增加判断
+// public static boolean isPalindrome(int x) {
+// if (x == 0)
+// return true;
+// if (x < 0 || x % 10 == 0)
+// return false;
 // int reversed = 0;
 // while (x > reversed) {
 // reversed = reversed * 10 + x % 10;
@@ -712,11 +789,11 @@ class Solution42 {
 // return x == reversed || x == reversed / 10;
 // }
 // }
-
-// 11. 回文数 解法一
-// public class Solution {
-// public static boolean isPalindrome(String value){
 //
+// // 11. 回文数 解法一
+// class Solution110 {
+// // 可对任意长度字符串置逆
+// public static boolean isPalindrome(String value) {
 // String reversed = new StringBuffer(value).reverse().toString();
 // return reversed.equals(value);
 //

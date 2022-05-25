@@ -97,11 +97,11 @@ public class ThreadDemo {
 //        System.out.println(totalBytes);
 
 
-//        System.out.println(Thread.currentThread().getId());
-//        System.out.println(Thread.currentThread().getName());
-//        System.out.println(Thread.activeCount());
-//        System.out.println(Runtime.getRuntime().availableProcessors());
-//        System.out.println(Runtime.getRuntime().totalMemory() / 1024 / 1024);
+       System.out.println(Thread.currentThread().getId());
+       System.out.println(Thread.currentThread().getName());
+       System.out.println(Thread.activeCount());
+       System.out.println(Runtime.getRuntime().availableProcessors());
+       System.out.println(Runtime.getRuntime().totalMemory() / 1024 / 1024);
 //
 //        // 2. Thread scheduler
 //        Thread thread = new Thread(new DownloadFileTask());

@@ -98,6 +98,8 @@ public class Main {
         // default:
         // System.out.println("Please enter a valid number.");
         // }
+        // System.out.println(Solution110.isPalindrome("12321"));
+        // System.out.println(Solution111.isPalindrome(12321));
 
     }
 }
