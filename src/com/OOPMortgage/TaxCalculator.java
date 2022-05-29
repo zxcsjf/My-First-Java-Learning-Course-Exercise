@@ -1,4 +1,4 @@
-package com.HomeWork50.OOPMortgage;
+package com.OOPMortgage;
 
 public interface TaxCalculator {
     // Abstract method without any declaration, no { }.

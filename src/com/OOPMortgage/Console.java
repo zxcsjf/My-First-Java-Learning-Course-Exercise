@@ -1,4 +1,4 @@
-package com.HomeWork50.OOPMortgage;
+package com.OOPMortgage;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.HomeWork50.OOPMortgage;
+package com.OOPMortgage;
 
 // 8.这个类完全不关心如何展示数据，只关心计算。
 public class MortgageCalculator {

@@ -1,4 +1,4 @@
-package com.HomeWork50;
+package com.homework50;
 
 public class GirlFriend {
     private int age;

@@ -1,4 +1,4 @@
-package com.HomeWork50.OOPMortgage;
+package com.OOPMortgage;
 
 public abstract class UIControl {
     private boolean isEnabled = false;

@@ -1,4 +1,4 @@
-package com.HomeWork50.OOPMortgage;
+package com.OOPMortgage;
 
 public class CheckBox extends UIControl {
     public CheckBox(boolean isEnabled) {
