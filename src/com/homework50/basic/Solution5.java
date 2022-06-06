@@ -36,5 +36,6 @@ public class Solution5 {
         }
         System.out.println("There are " + count +
                 " prime number between " + minValue + " and " + maxValue);
+
     }
 }
