@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b9c2cf-34a2-4eda-8850-630d80549107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/_01_test/Solution21.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/_01_test/Solution22.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/_01_test/Solution23.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/homework50/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/homework50/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Learning/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Learning/src/com/_02_homework/Solution6_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/src/com/_02_homework/Solution6_01.java" afterDir="false" />
@@ -54,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="386">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -279,7 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,7 +281,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,6 +478,7 @@
       <workItem from="1654563943277" duration="24418000" />
       <workItem from="1654601838339" duration="1408000" />
       <workItem from="1654612492884" duration="1199000" />
+      <workItem from="1654613860227" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -671,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1654569452929</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2022-06-07 晚上">
+      <created>1654613912413</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654613912413</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="471748000" />
+    <option name="totallyTimeSpent" value="472053000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -690,7 +688,7 @@
     <frame x="-6" y="-6" width="1453" height="913" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.2157706" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.21863799" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.37935656" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -790,7 +788,8 @@
     <MESSAGE value="END!" />
     <MESSAGE value="2022-06-06 试卷" />
     <MESSAGE value="2022-06-07 上午" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-06-07 上午" />
+    <MESSAGE value="2022-06-07 晚上" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-06-07 晚上" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1059,8 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="386">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
