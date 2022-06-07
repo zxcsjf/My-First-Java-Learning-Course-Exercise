@@ -62,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shanjifei/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-2125">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="153">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -199,11 +199,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="1340" />
-    <option name="width" value="2878" />
-    <option name="height" value="1798" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="104" />
+    <option name="y" value="126" />
+    <option name="width" value="1454" />
+    <option name="height" value="1558" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -217,14 +217,49 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="_01_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjifei" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654565977531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654569429582" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java43th" />
@@ -233,7 +268,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -419,7 +454,7 @@
       <workItem from="1654523856838" duration="395000" />
       <workItem from="1654524282309" duration="899000" />
       <workItem from="1654528824585" duration="1686000" />
-      <workItem from="1654563943277" duration="2025000" />
+      <workItem from="1654563943277" duration="4980000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -589,11 +624,18 @@
       <option name="project" value="LOCAL" />
       <updated>1654522877302</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="2022-06-06 试卷">
+      <created>1654565989642</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1654565989643</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446748000" />
+    <option name="totallyTimeSpent" value="449703000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -605,10 +647,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="670" width="1439" height="899" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1453" height="913" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.2121651" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.21003585" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.37935656" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -618,7 +659,7 @@
       <window_info anchor="bottom" id="Thumbnails" sideWeight="0.49964157" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4953405" weight="0.20460358" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56702507" weight="0.24040921" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5283154" weight="0.38107416" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5591398" weight="0.38235295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,8 +667,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.32839838" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49529326" visible="true" weight="0.39583334" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50470674" side_tool="true" visible="true" weight="0.39583334" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49462366" visible="true" weight="0.39514068" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50537634" side_tool="true" visible="true" weight="0.39514068" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48387095" weight="0.23657289" />
       <window_info anchor="bottom" id="Problems" order="13" sideWeight="0.5362007" weight="0.13299233" />
       <window_info anchor="bottom" id="Spring" order="14" />
@@ -1024,15 +1065,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shanjifei/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-2125">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1096,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1103,6 +1144,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Spring-5.2.3.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
