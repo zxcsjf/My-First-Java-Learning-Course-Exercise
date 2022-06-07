@@ -6,15 +6,24 @@ import java.util.Scanner;
 
 public class HelloWorld1 {
     public static void main(String[] args) {
+        // outerA:
+        // for (int i = 0; i < 5; i++) {
+        //
+        //     inner:
+        //     for (int j = 0; j < 3; j++) {
+        //
+        //         if (i == 3) break outerA;
+        //     }
+        // }
+        //
+        // String str1 = "shan";
+        // switch (str1) {
+        //     case "shan":
+        //         System.out.println("shan");
+        //         break;
+        // }
 
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        String str1 = sc.nextLine();
-        String str2 = sc.nextLine();
-
-        System.out.println(num);
-        System.out.println(str1);
-        System.out.println(str2);
+        System.out.println('\u2122');
 
         //     int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         //     System.out.println(maxSubArray(nums));

@@ -453,21 +453,21 @@ package com.homework50;
 // }
 // }
 
-// // 17. 9 X 9 口诀表
-// public class Solution {
-// public static void print9x9Sheet() {
-// for (int i = 1; i <= 9; i++) {
-// for (int j = 1; j <= i; j++) {
-// System.out.print(i + " x " + j + " = " + i * j + " ");
-// }
-// System.out.println();
-// }
-// }
-//
-// public static void main(String[] args) {
-// print9x9Sheet();
-// }
-// }
+// 17. 9 X 9 口诀表
+public class Solution {
+    public static void print9x9Sheet() {
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i + " x " + j + " = " + i * j + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        print9x9Sheet();
+    }
+}
 
 // // 6. Isosceles Triangle
 // class Solution {
