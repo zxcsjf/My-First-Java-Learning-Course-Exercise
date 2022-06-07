@@ -9,7 +9,6 @@
     <list default="true" id="a4b9c2cf-34a2-4eda-8850-630d80549107" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Learning/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Learning/src/com/_02_homework/Solution6_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/src/com/_02_homework/Solution6_01.java" afterDir="false" />
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="408">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -257,10 +256,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
-    <option name="y" value="242" />
-    <option name="width" value="2878" />
-    <option name="height" value="1798" />
+    <option name="x" value="-10" />
+    <option name="width" value="1462" />
+    <option name="height" value="1812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -272,6 +270,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,18 +289,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shanjifei" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -313,10 +304,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654613696979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654616952937" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java43th" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -501,7 +492,8 @@
       <workItem from="1654612492884" duration="1199000" />
       <workItem from="1654613860227" duration="305000" />
       <workItem from="1654615227531" duration="688000" />
-      <workItem from="1654616293722" duration="247000" />
+      <workItem from="1654616293722" duration="661000" />
+      <workItem from="1654618031659" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -699,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1654615252870</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="gitee 真难用！！！">
+      <created>1654616632182</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1654616632182</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="472988000" />
+    <option name="totallyTimeSpent" value="473628000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -715,10 +714,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1453" height="913" extended-state="6" />
-    <editor active="true" />
+    <frame x="525" y="39" width="1212" height="865" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.22437276" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.2712305" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.37935656" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -735,8 +733,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.32839838" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.53476703" weight="0.08184143" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.47429398" side_tool="true" visible="true" weight="0.26982096" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5337955" visible="true" weight="0.34332424" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4662045" side_tool="true" visible="true" weight="0.34332424" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48028675" weight="0.23657289" />
       <window_info anchor="bottom" id="Problems" order="13" sideWeight="0.5362007" weight="0.13299233" />
       <window_info anchor="bottom" id="Spring" order="14" />
@@ -819,7 +817,8 @@
     <MESSAGE value="2022-06-06 试卷" />
     <MESSAGE value="2022-06-07 上午" />
     <MESSAGE value="2022-06-07 晚上" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-06-07 晚上" />
+    <MESSAGE value="gitee 真难用！！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitee 真难用！！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1032,13 +1031,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Learning/src/com/_02_homework/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Learning/src/com/_02_homework/test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution23.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1146,8 +1139,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="408">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1170,7 +1163,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1205,7 +1198,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test</last-edited>
+          <last-edited>HelloWorld</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
