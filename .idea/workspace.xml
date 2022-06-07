@@ -6,100 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b9c2cf-34a2-4eda-8850-630d80549107" name="Default Changelist" comment="END!">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/_01_test/Solution21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/_01_test/Solution22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/_01_test/Solution23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+    <list default="true" id="a4b9c2cf-34a2-4eda-8850-630d80549107" name="Default Changelist" comment="2022-06-06 试卷">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/CollectionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/CollectionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/EmailComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/EmailComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/ListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/MapDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/NameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/NameComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/QueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/QueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/SetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Collections/SetDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/CompleteableFutureExercise/FlightService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/CompleteableFutureExercise/FlightService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/CompleteableFutureExercise/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/CompleteableFutureExercise/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/CompleteableFutureExercise/Quote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/CompleteableFutureExercise/Quote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/DownloadFileTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/DownloadFileTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/DownloadStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/DownloadStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Concurrency/ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/AccountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/AccountException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/ExceptionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/ExceptionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/InSufficientFundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/InSufficientFundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Exceptions/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/CompletableFutureDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/CompletableFutureDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/ExecutorsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/ExecutorsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/LongTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/LongTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/MailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Executors/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/GenericList$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/GenericList$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/GenericList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/GenericList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/Instructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/Instructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/KeyValuePairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/KeyValuePairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Generics/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/HomeWork50/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/HomeWork50/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/DownloadFileTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/DownloadFileTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/DownloadStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/DownloadStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Issue/ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/BinaryUnaryOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/BinaryUnaryOperatorDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/ConsolePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/ConsolePrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/ConsumerInterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/ConsumerInterfaceDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/FunctionInterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/FunctionInterfaceDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/LambdasDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/LambdasDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/PredicateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/PredicateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/SupplierInterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Lambdas/SupplierInterfaceDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/NotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/NotificationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/SqlVideoDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/SqlVideoDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/VideoDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/VideoDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/VideoEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/VideoEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/VideoProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/VideoProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/XVideoEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Mytube/XVideoEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOP/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOP/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOP/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOP/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/AbstractTaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/AbstractTaxCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/CheckBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/CheckBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Console.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Mortage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Mortage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/MortgageCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/MortgageCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/MortgageReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/MortgageReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxCalculator2018.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxCalculator2018.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxCalculator2019.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxCalculator2019.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TaxReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TextBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/TextBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/UIControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/OOPMortgage/UIControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/Genre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/StreamsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/Streams/StreamsDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/homework50/basic/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/homework50/basic/Solution5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -135,16 +45,34 @@
         <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution5.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/_01_test/Solution21.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shanjifei/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/_01_test/Solution21.java">
+        <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -191,6 +119,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -270,11 +199,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="2906" />
-    <option name="height" value="1826" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="144" />
+    <option name="y" value="1340" />
+    <option name="width" value="2878" />
+    <option name="height" value="1798" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,53 +215,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_01_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654522249428" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654565977531" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java43th" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -358,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution22">
+  <component name="RunManager" selected="Application.HelloWorld1">
     <configuration name="HelloWorld1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shanjifei.HelloWorld1" />
       <module name="HelloWorld" />
@@ -439,8 +340,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution22" />
         <item itemvalue="Application.HelloWorld1" />
+        <item itemvalue="Application.Solution22" />
         <item itemvalue="Application.Solution23" />
         <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Solution12" />
@@ -514,7 +415,11 @@
       <workItem from="1652619569284" duration="136000" />
       <workItem from="1654441892022" duration="1043000" />
       <workItem from="1654477980809" duration="2036000" />
-      <workItem from="1654485824844" duration="16178000" />
+      <workItem from="1654485824844" duration="16278000" />
+      <workItem from="1654523856838" duration="395000" />
+      <workItem from="1654524282309" duration="899000" />
+      <workItem from="1654528824585" duration="1686000" />
+      <workItem from="1654563943277" duration="2025000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -677,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1652538787485</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2022-06-06 试卷">
+      <created>1654522877302</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654522877302</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441643000" />
+    <option name="totallyTimeSpent" value="446748000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -693,33 +605,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1453" height="913" extended-state="6" />
+    <frame x="72" y="670" width="1439" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.1985663" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.2121651" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.37935656" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5120482" side_tool="true" weight="0.21045576" />
+      <window_info anchor="bottom" id="Thumbnails" sideWeight="0.49964157" weight="0.32992327" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4953405" weight="0.20460358" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5684588" visible="true" weight="0.10230179" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.55985665" weight="0.38235295" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56702507" weight="0.24040921" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5591398" weight="0.38235295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.32839838" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.32839838" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49597856" weight="0.38896367" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4315412" side_tool="true" visible="true" weight="0.10230179" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49529326" visible="true" weight="0.39583334" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50470674" side_tool="true" visible="true" weight="0.39583334" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48387095" weight="0.23657289" />
       <window_info anchor="bottom" id="Problems" order="13" sideWeight="0.5362007" weight="0.13299233" />
       <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Translation Assistant" weight="0.18996416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962743" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -730,6 +641,8 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" x="17" y="120" width="1350" height="678" id="Byte Code Viewer" order="9" type="FLOATING" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
+      <window_info anchor="right" id="Translation Assistant" order="11" weight="0.18996416" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49183303" visible="true" weight="0.19504021" />
@@ -788,7 +701,8 @@
     <MESSAGE value="Callable and Futures" />
     <MESSAGE value="Asynchronous Programming, CompletableFuture&lt;T&gt;, runAsync, supplyAsync, exceptionally,&#10; thenAccept, thenRunAsync, thenCompose, thenCombine, allOf, anyOf&#10; orTimeout, completeOnTimeout" />
     <MESSAGE value="END!" />
-    <option name="LAST_COMMIT_MESSAGE" value="END!" />
+    <MESSAGE value="2022-06-06 试卷" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-06-06 试卷" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,7 +730,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/Develop/Java/jdk-11.0.14/lib/src.zip!/java.base/java/lang/Runtime.java" />
     <entry file="jar://E:/Develop/Java/jdk-11.0.14/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Streams/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1055,20 +968,8 @@
     <entry file="file://$PROJECT_DIR$/../test/test.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Collections/com/cskaoyan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cskaoyan/a/b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Collections/com/cskaoyan.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/cskaoyan/a/b.java" />
     <entry file="file://$PROJECT_DIR$/src/com/OOPMortgage/TaxReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1107,24 +1008,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/_01_test/Solution21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shanjifei/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
