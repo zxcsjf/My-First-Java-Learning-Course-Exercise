@@ -24,6 +24,7 @@ public class HelloWorld1 {
         // }
 
         System.out.println('\u2122');
+        System.out.println("gitee 真难用！！！！");
 
 
         //     int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
