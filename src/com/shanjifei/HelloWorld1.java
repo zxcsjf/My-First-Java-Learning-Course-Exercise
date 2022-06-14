@@ -1,11 +1,10 @@
 package com.shanjifei;
 
-import java.awt.*;
-import java.util.Date;
-import java.util.Scanner;
+import org.junit.Test;
 
 public class HelloWorld1 {
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         // outerA:
         // for (int i = 0; i < 5; i++) {
         //
@@ -25,7 +24,6 @@ public class HelloWorld1 {
 
         System.out.println('\u2122');
         System.out.println("gitee 真难用！！！！");
-
 
         //     int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         //     System.out.println(maxSubArray(nums));

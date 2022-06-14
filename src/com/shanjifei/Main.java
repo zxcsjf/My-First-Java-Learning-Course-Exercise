@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("ab" == "ab");
 
 //        BigDecimal _0_1 = new BigDecimal(0.1);
 //        BigDecimal x = _0_1;

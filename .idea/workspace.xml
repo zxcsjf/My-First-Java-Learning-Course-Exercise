@@ -9,10 +9,23 @@
     <list default="true" id="a4b9c2cf-34a2-4eda-8850-630d80549107" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Learning/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Learning/src/com/_02_homework/Solution6_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/src/com/_02_homework/Solution6_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Learning/src/com/_02_homework/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/HelloWorld1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shanjifei/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_01_test/Solution21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_01_test/Solution22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_01_test/Solution23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution6_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution6_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution6_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution6_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution6_05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/_02_homework/Solution6_06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shanjifei/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shanjifei/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cskaoyan-javaee-02/src/HelloWorld.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,42 +57,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution28.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution27.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution26.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -89,46 +66,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution25.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/homework50/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7786">
-              <caret line="458" column="5" selection-start-line="458" selection-start-column="5" selection-end-line="459" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution13.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution12.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution30.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shanjifei/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution29.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -189,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Lambdas/Print.java" />
         <option value="$PROJECT_DIR$/src/com/Lambdas/SupplierInterfaceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/Lambdas/FunctionInerfaceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/Lambdas/FunctionItnerfaceDemo.java" />
@@ -240,6 +243,7 @@
         <option value="$PROJECT_DIR$/../Learning/src/com/_02_test/test.java" />
         <option value="$PROJECT_DIR$/src/com/homework50/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java" />
+        <option value="$PROJECT_DIR$/src/com/shanjifei/Main.java" />
       </list>
     </option>
   </component>
@@ -256,8 +260,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1462" />
+    <option name="x" value="366" />
+    <option name="width" value="2106" />
     <option name="height" value="1812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -289,6 +293,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjifei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Streams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -304,16 +326,16 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654616952937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1654851663921" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -324,6 +346,7 @@
       <recent name="com.Mytube" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Wangdao\IdeaProject\HelloWorld\src\com" />
       <recent name="D:\Wangdao\IdeaProject\test" />
       <recent name="E:\Wangdao\IdeaProject\HelloWorld\src\com\Mytube" />
     </key>
@@ -340,13 +363,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="HelloWorld1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shanjifei.HelloWorld1" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shanjifei.Main" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com._02_test.*" />
+          <option name="PATTERN" value="com.shanjifei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,12 +377,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._01_test.Solution22" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Exceptions.Main" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com._02_test.*" />
+          <option name="PATTERN" value="com.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,21 +390,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._01_test.Solution23" />
-      <module name="HelloWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com._02_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.homework50.basic.Solution5" />
+    <configuration name="Solution20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homework50.basic.Solution20" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
@@ -393,26 +403,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._02_test.test" />
+    <configuration name="HelloWorld1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com._02_test.*" />
+          <option name="PATTERN" value="com.shanjifei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.shanjifei" />
+      <option name="MAIN_CLASS_NAME" value="com.shanjifei.HelloWorld1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanjifei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shanjifei" />
+      <option name="MAIN_CLASS_NAME" value="com.shanjifei.HelloWorld1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.HelloWorld1" />
-        <item itemvalue="Application.Solution22" />
-        <item itemvalue="Application.Solution23" />
-        <item itemvalue="Application.Solution5" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Solution20" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.HelloWorld1.test" />
+        <item itemvalue="JUnit.HelloWorld1" />
       </list>
     </recent_temporary>
   </component>
@@ -494,6 +522,16 @@
       <workItem from="1654615227531" duration="688000" />
       <workItem from="1654616293722" duration="661000" />
       <workItem from="1654618031659" duration="226000" />
+      <workItem from="1654619510030" duration="348000" />
+      <workItem from="1654648375260" duration="6000" />
+      <workItem from="1654648411343" duration="751000" />
+      <workItem from="1654651123710" duration="1858000" />
+      <workItem from="1654653983276" duration="309000" />
+      <workItem from="1654758291198" duration="43000" />
+      <workItem from="1654759007079" duration="1201000" />
+      <workItem from="1654831901993" duration="687000" />
+      <workItem from="1654837515511" duration="1527000" />
+      <workItem from="1654851681080" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="This is my first commit from Intellij.">
       <created>1650969273774</created>
@@ -698,11 +736,32 @@
       <option name="project" value="LOCAL" />
       <updated>1654616632182</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="gitee 真难用！！！">
+      <created>1654619554604</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1654619554604</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HelloWorld1_test - 2022.06.08 at 10h 07m 20s.xml">
+      <configuration name="HelloWorld1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorld1_test - 2022.06.08 at 10h 08m 14s.xml">
+      <configuration name="HelloWorld1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorld1 - 2022.06.08 at 10h 11m 17s.xml">
+      <configuration name="HelloWorld1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorld1_test - 2022.06.08 at 10h 11m 31s.xml">
+      <configuration name="HelloWorld1.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="473628000" />
+    <option name="totallyTimeSpent" value="480953000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -714,9 +773,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="525" y="39" width="1212" height="865" extended-state="0" />
+    <frame x="183" y="0" width="1053" height="906" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.2712305" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48795182" visible="true" weight="0.30854273" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.37935656" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -725,7 +785,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5120482" side_tool="true" weight="0.21045576" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4953405" weight="0.20460358" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.525706" weight="0.27083334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.52401435" visible="true" weight="0.23096775" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5591398" weight="0.38235295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -733,9 +793,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.32839838" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5337955" visible="true" weight="0.34332424" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4662045" side_tool="true" visible="true" weight="0.34332424" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48028675" weight="0.23657289" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.53333336" weight="0.32480818" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47598568" side_tool="true" weight="0.34526855" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48028675" weight="0.23612903" />
       <window_info anchor="bottom" id="Problems" order="13" sideWeight="0.5362007" weight="0.13299233" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Thumbnails" order="15" sideWeight="0.49964157" weight="0.32992327" />
@@ -846,80 +906,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/Develop/Java/jdk-11.0.14/lib/src.zip!/java.base/java/lang/Runnable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Executors/MailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Develop/Java/jdk-11.0.14/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java" />
-    <entry file="jar://E:/Develop/Java/jdk-11.0.14/lib/src.zip!/java.base/java/lang/System.java" />
-    <entry file="jar://E:/Develop/Java/jdk-11.0.14/lib/src.zip!/java.base/java/io/PrintStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/CompletableFutureExercise.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Concurrency/DownloadFileTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CompleteableFutureExercise/CompleteableFutureDemoOfExercise.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Executors/LongTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CompleteableFutureExercise/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CompleteableFutureExercise/FlightService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Executors/ExecutorsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Executors/CompletableFutureDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CompleteableFutureExercise/Quote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/HelloWorld/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1000,102 +986,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Learning/src/com/_01_test/Solution21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shanjifei/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Learning/src/com/_01_test/Solution22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Learning/src/com/_01_test/Solution23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cskaoyan-javaee-02/com/src/_01_test/Solution21.java" />
+    <entry file="file://$PROJECT_DIR$/../../cskaoyan-javaee-02/com/src/_01_test/Solution22.java" />
+    <entry file="file://$PROJECT_DIR$/../../cskaoyan-javaee-02/com/src/_01_test/Solution23.java" />
     <entry file="file://$PROJECT_DIR$/../Learning/src/com/_02_homework/test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution18.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution28.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution26.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1109,17 +1004,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Exceptions/ExceptionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7786">
-          <caret line="458" column="5" selection-start-line="458" selection-start-column="5" selection-end-line="459" selection-end-column="42" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution13.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Exceptions/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Exceptions/InSufficientFundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Exceptions/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Exceptions/AccountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="664" column="4" lean-forward="true" selection-start-line="664" selection-start-column="4" selection-end-line="664" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1130,6 +1063,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution30.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1137,10 +1161,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shanjifei/HelloWorld1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/extension/Solution5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/homework50/basic/Solution29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shanjifei/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
